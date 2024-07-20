@@ -3,99 +3,62 @@
 
 <head>
     <title>form</title>
+    <style>
+        .center{
+            text-align: center;
+        }
+      img{
+        display: block;
+       margin-left: 70%;
+      
+        /* margin-right: auto;  */
+        } 
+        .section{
+margin-left: 20%;
+        }
+    </style>
+
 </head>
 
-<body>
-    <form> 
-        <fieldset>
-            <legend>Personal Information</legend>
-            <lable for="name">first name</lable>
-            <input type="text" id="fname" placeholder="first name" />
-            <br>
-            <br>
+<body
+    style="background-image: url(./assets/pink-background-img.jpg);background-repeat: no-repeat; background-size: cover;">
 
-            <lable for="name">last name</lable>
-            <input type="text" id="name" placeholder="lastname" />
-            <br>
-            <br>
+    <div class="center">
+        <h1>Welcome To Enjoy Programming</h1>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+   <div class="section">
+         <lable for="name">first name</lable>
+        <input type="text" id="name" placeholder="first name" />
+         <!-- <br>
+        <br> -->
 
-            <lable for="phno">ph no</lable>
-            <input type="number" id="phno" placeholder="phno " />
-            <br>
-            <br>
+        <lable for="name">last name</lable>
+        <input type="text" id="name" placeholder="last name" />
+        <br>
+        <br> 
 
-            <lable for="date">dob</lable>
-            <input type="date" id="date" />
-            <br>
-            <br>
+        <label for="phno">phone no.</label>
+        <input type="number" id="phno" placeholder="phno" />
+        <!-- <br>
+        <br> -->
 
-            <lable for="Email">Email</lable>
-            <input type="email" id="Email" placeholder="Email" />
-            <br>
-            <br>
+        <lable for="Email">Email</lable>
+        <input type="email" id="Email" placeholder="Email" />
+        <br>
+        <br>
+        <button type="button"><a href="formtwo.html">Next</a></button>
+    </div>
+   
+    <img src="./assets/programming-img.avif" width="20%" height="300px" alt="prgramming"/> 
+    
+  
 
-            <lable for="pwd">password</lable>
-            <input type="password" id="pwd" placeholder="password" />
-            <br>
-
-            <h3>choose your degree</h3>
-            <select>
-                <optgroup>
-                    <option value="b-tech">b-tech</option>
-                    <option value="bca">bca</option>
-                    <option value="poly">poly</option>
-                </optgroup>
-            </select>
-            <br>
-
-            <h3>gender</h3>
-            <lable for="gender">male</lable>
-            <input type="radio" id="gender" name="gender" />
-            <br>
-
-            <lable for="gender">female</lable>
-            <input type="radio" id="gender" name="gender" />
-            <br>
-
-            <h3>Select your bike</h3>
-            <lable for="bike">passion</lable>
-            <input type="checkbox" id="bike" name="bike" />
-            <br>
-
-            <lable for="bike">yunicorn</lable>
-            <input type="checkbox" id="bike" name="bike" />
-            <br>
-
-            <h3>choose your vehical</h3>
-            <select>
-                <option value="car">car</option>
-                <option value="bike">bike</option>
-                <option value="scooty">scooty</option>
-            </select>
-            <br>
-            <br>
-
-            <h3>Select your Car</h3>
-            <input list="cars">
-            <datalist id="cars">
-                <option value="Altroz">
-                <option value="Tiago">
-                <option value="Nexon">
-                <option value="Triber">
-            </datalist>
-            <br>
-            <br>
-            <h3>Addrerss</h3>
-            <textarea name="address" id="add"></textarea>
-            <br>
-
-            <input type="submit" id="submit" />
-            <input type="reset"  id="reset" />
-            <br>
-            <br>
-            <input type="button" onclick="alert('Hello World')" value="click me"/>
-        </fieldset>
-    </form>
+       
+  
 </body>
 
 </html>
