@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flex-practice</title>
+    </head>
+    <style>
+        .main-container{
+            background-color: lightslategray;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+        }
+        .column-one{
+            
+            width: 20%;
+            height: 100%;
+            background-color: lightgreen;
+        }
+        .column-two{
+            
+            width: 40%;
+            height: 100%;
+            background-color:lightcoral;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .column-three{
+         
+            width: 40%;
+            height: 100%;
+            background-color: lightgreen;
+        }
+        .column-one-row-one{
+            height: 50%;
+            width: 100%;
+            background-color: lightpink;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .column-one-row-two{
+            height: 50%;
+            width: 100%;
+            background-color: #7AA874;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .column-three-row-one{
+            height: 50%;
+            width: 100%;
+            background-color: lightpink;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .column-three-row-two{
+            height: 50%;
+            width: 100%;
+            background-color:#7AA874;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+    <body style="margin: 0%;">
+        <div class="main-container">
+            <div class="column-one">
+                <div class="column-one-row-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px" >
+                </div>
+                <div class="column-one-row-two"><img src="../assets/image/star-logo.webp" height="100px" width="100px" ></div>
+            </div>
+            <div class="column-two"><img src="../assets/image/star-logo.webp" height="100px" width="100px" ></div>
+            <div class="column-three">
+                <div class="column-three-row-one"><img src="../assets/image/star-logo.webp" height="100px" width="100px" ></div>
+                <div class="column-three-row-two"><img src="../assets/image/star-logo.webp" height="100px" width="100px" ></div>
+            </div>
+        </div>
+    </body>
+</html>
