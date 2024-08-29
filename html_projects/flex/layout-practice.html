@@ -4,56 +4,69 @@
 <head>
     <title>layout-one</title>
     <style>
+        /* styling for table */
         table {
             width: 90vw;
             height: 150vh;
             margin-left: 5vw;
             background-color: aqua;
-            
+
         }
 
+        /* styling for tr */
         tr {
             width: 100%;
             border-style: none;
             background-color: lightsalmon
         }
 
+        /* styling for row-one */
         .row-one {
             height: 20vh;
-           
+
         }
 
+        /* styling for row-two */
         .row-two {
             height: 20vh;
         }
 
+        /* styling for row-three */
         .row-three {
             height: 20vh;
         }
 
+        /* styling for row-four */
         .row-four {
             height: 20vh;
         }
 
+        /* row-one-column */
         .row-one-column {
             width: 25%;
             height: 100;
             background-color: lightslategrey;
         }
 
+        /* styling for row-one-column-box*/
         .row-one-column-box {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
-        .row-four{
+
+        /* styling for row-four */
+        .row-four {
             background-color: lightgreen;
         }
-       .row-five{
-            background-color: lightpink;
-       }
 
+        /* styling for row-five */
+        .row-five {
+            background-color: lightpink;
+        }
+
+        /* styling for row-one-column-box-three */
         .row-one-column-box-three {
             display: flex;
             flex-direction: column;
@@ -62,6 +75,7 @@
             gap: 20px;
         }
 
+        /* styling for row-one-column-box-fou */
         .row-one-column-box-four {
             display: flex;
             flex-direction: column;
@@ -69,52 +83,65 @@
             justify-content: center;
             gap: 20px;
         }
-        .row-two-column-box-two{
+
+        /* styling for  row-two-column-box-two*/
+        .row-two-column-box-two {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: right;
         }
+
+        /* styling for row-two-column-box-one*/
         .row-two-column-box-one {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
         }
-       .row-three-column-one{
+
+        /* styling for row-three-column-one */
+        .row-three-column-one {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-       }
-       .row-four-column-one{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-       }
-       .row-five-column-one{
+        }
+
+        /* styling for row-four-column-one */
+        .row-four-column-one {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* styling for row-five-column-one */
+        .row-five-column-one {
             display: flex;
             flex-direction: column;
             align-items: flex-end;
             justify-content: end;
-       }
+        }
     </style>
 </head>
 
 <body>
     <table>
+        <!-- row-one -->
         <tr class="row-one">
             <td class="row-one-column">
                 <div class="row-one-column-box"><img src="../assets/image/star-logo.webp" height="100px" width="100px">
                 </div>
             </td>
+           
             <td class="row-one-column">
                 <div class="row-one-column-box-two"><img src="../assets/image/star-logo.webp" height="100px"
                         width="100px">
                     <div class="row-one-column-box-two"><img src="../assets/image/star-logo.webp" height="100px"
                             width="100px">
             </td>
+
             <td class="row-one-column">
                 <div class="row-one-column-box-three"><img src="../assets/image/star-logo.webp" height="100px"
                         width="100px">
@@ -125,6 +152,7 @@
             </td>
 
         </tr>
+        <!-- row-two -->
         <tr class="row-two">
             <td class="row-two-column" rowspan="2" colspan="2">
                 <div class="row-two-column-box-one">
@@ -150,8 +178,9 @@
                     <img src="../assets/image/star-logo.webp" height="100px" width="100px">
                 </div>
             </td>
-           
+
         </tr>
+        <!-- row-three -->
         <tr class="row-three">
             <td class="row-three-column" colspan="2">
                 <div class="row-three-column-one">
@@ -159,6 +188,7 @@
                 </div>
             </td>
         </tr>
+        <!-- row-four -->
         <tr class="row-four">
             <td class="row-four-column" colspan="4">
                 <div class="row-four-column-one">
@@ -166,6 +196,7 @@
                 </div>
             </td>
         </tr>
+        <!-- row-five -->
         <tr class="row-five">
             <td class="row-five-column" colspan="4">
                 <div class="row-five-column-one">
