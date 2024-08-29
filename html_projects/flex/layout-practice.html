@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>layout-one</title>
+    <style>
+        table {
+            width: 90vw;
+            height: 150vh;
+            margin-left: 5vw;
+            background-color: aqua;
+            
+        }
+
+        tr {
+            width: 100%;
+            border-style: none;
+            background-color: lightsalmon
+        }
+
+        .row-one {
+            height: 20vh;
+           
+        }
+
+        .row-two {
+            height: 20vh;
+        }
+
+        .row-three {
+            height: 20vh;
+        }
+
+        .row-four {
+            height: 20vh;
+        }
+
+        .row-one-column {
+            width: 25%;
+            height: 100;
+            background-color: lightslategrey;
+        }
+
+        .row-one-column-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .row-four{
+            background-color: lightgreen;
+        }
+       .row-five{
+            background-color: lightpink;
+       }
+
+        .row-one-column-box-three {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .row-one-column-box-four {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .row-two-column-box-two{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: right;
+        }
+        .row-two-column-box-one {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+       .row-three-column-one{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+       }
+       .row-four-column-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+       .row-five-column-one{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: end;
+       }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr class="row-one">
+            <td class="row-one-column">
+                <div class="row-one-column-box"><img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+            </td>
+            <td class="row-one-column">
+                <div class="row-one-column-box-two"><img src="../assets/image/star-logo.webp" height="100px"
+                        width="100px">
+                    <div class="row-one-column-box-two"><img src="../assets/image/star-logo.webp" height="100px"
+                            width="100px">
+            </td>
+            <td class="row-one-column">
+                <div class="row-one-column-box-three"><img src="../assets/image/star-logo.webp" height="100px"
+                        width="100px">
+            </td>
+            <td class="row-one-column">
+                <div class="row-one-column-box-four"><img src="../assets/image/star-logo.webp" height="100px"
+                        width="100px">
+            </td>
+
+        </tr>
+        <tr class="row-two">
+            <td class="row-two-column" rowspan="2" colspan="2">
+                <div class="row-two-column-box-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+                <div class="row-two-column-box-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+                <div class="row-two-column-box-two">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, accusantium velit fugiat
+                        doloribus earum a dolorem. Impedit maxime alias eligendi pariatur dolore ullam, iusto ipsum eius
+                        delectus quibusdam consequuntur eum?</p>
+                </div>
+            </td>
+            <td class="row-two-column" colspan="2">
+                <div class="row-two-column-box-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+            </td>
+           
+        </tr>
+        <tr class="row-three">
+            <td class="row-three-column" colspan="2">
+                <div class="row-three-column-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+            </td>
+        </tr>
+        <tr class="row-four">
+            <td class="row-four-column" colspan="4">
+                <div class="row-four-column-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+            </td>
+        </tr>
+        <tr class="row-five">
+            <td class="row-five-column" colspan="4">
+                <div class="row-five-column-one">
+                    <img src="../assets/image/star-logo.webp" height="100px" width="100px">
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

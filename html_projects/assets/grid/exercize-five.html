@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercize-Five</title>
+    <style>
+        /* main-container styling */
+        .main-container {
+            height: 90vh;
+            width: 90vw;
+           
+            border-style: solid;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* row-one styling */
+        .row-one {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            border-style: solid;
+        }
+
+        /* box-one styling */
+        .box-one {
+            height: 100%;
+            width: 50%;
+            border-style: solid;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box1 {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+           
+            align-items: center;
+
+        }
+
+        .box2 {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+          
+        }
+
+        .box11 {
+            width: 40%;
+            height: 100%;
+            border-style: solid;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .box21 {
+            width: 40%;
+            height: 100%;
+            border-style: solid;
+            margin-right: 10px;
+          
+        }
+
+        /* box-two */
+        .box-two {
+            height: 100%;
+            width: 50%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            border-style: solid;
+        }
+
+        /*  box-two-first-row */
+        .first-row {
+            border-style: solid;
+        }
+
+        /* box-two-second-row */
+        .second-row {
+            border-style: solid;
+        }
+
+        /* box-two-third-row */
+        .third-row {
+            border-style: solid;
+        }
+
+        .row-two {
+            height: 50%;
+            width: 100%;
+           display: grid;
+           grid-template-rows: 1fr 1fr 1fr;
+           border-style: solid;
+        }
+
+        .row-two1 {
+           
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-style: solid;
+        }
+
+        .row-two2 {
+           
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            border-style: solid;
+        }
+
+        .three {
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="row-one">
+            <div class="box-one">
+                <div class="box1">
+                    <div class="box11"></div>
+                </div>
+                <div class="box2">
+                    <div class="box21"></div>
+                </div>
+
+            </div>
+
+
+            <div class="box-two">
+                <div class="first-row"></div>
+                <div class="first-row"></div>
+                <div class="first-row"></div>
+
+                <div class="second-row"></div>
+                <div class="second-row"></div>
+                <div class="second-row"></div>
+
+                <div class="third-row"></div>
+                <div class="third-row"></div>
+                <div class="third-row"></div>
+            </div>
+        </div>
+
+        <div class="row-two">
+            <div class="row-two1">
+                <div class="three"></div>
+                <div class="three"></div>
+                <div class="three"></div>
+            </div>
+            <div class="row-two2">
+                <div class="three"></div>
+                <div class="three"></div>
+            </div>
+            <div class="row-two2">
+                <div class="three"></div>
+                <div class="three"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

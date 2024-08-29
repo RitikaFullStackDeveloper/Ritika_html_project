@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flex video</title>
+    <style>
+        /* styling main-container */
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+            background-color: #D1E9F6;
+        }
+
+        .row-one {
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+
+        }
+
+        .row-one-box-one {
+            width: 20%;
+            height: 100%;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+
+        .row-one-box-two {
+            width: 20%;
+            height: 100%;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+
+        .row-one-box-three {
+            width: 20%;
+            height: 100%;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+
+        .row-one-box-four {
+            width: 20%;
+            height: 100%;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+
+        .row-one-box-five {
+            width: 20%;
+            height: 100%;
+            background-color: aqua;
+            border: 1px solid black;
+        }
+
+        .row-two {
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .column-one {
+            height: 90%;
+            width: 75%;
+            background-color: blueviolet;
+        }
+
+        .column-two {
+            height: 90%;
+            width: 25%;
+          
+        }
+
+        .column-two-box-one {
+            height: 33%;
+            background-color: darkorange;
+        }
+
+        .column-two-box-two {
+            height: 33%;
+            background-color: rgb(44, 239, 48);
+        }
+
+        .column-two-box-three {
+            height: 34%;
+            background-color: rgb(192, 209, 37);
+        }
+
+        .row-three {
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            background-color: aqua;
+            border:1px solid black
+
+        }
+
+        .row-three-box-one {
+            height: 100%;
+            width: 20%;
+            background-color: aqua;
+            border:1px solid black
+        }
+
+        .row-three-box-two {
+            height: 100%;
+            width: 20%;
+            background-color: aqua;
+            border:1px solid black
+        }
+
+        .row-three-box-three {
+            height: 100%;
+            width: 20%;
+            background-color: aqua;
+            border:1px solid black
+        }
+
+        .row-three-box-four {
+            height: 100%;
+            width: 20%;
+            background-color: aqua;
+            border:1px solid black
+        }
+
+        .row-three-box-five{
+            height: 100%;
+            width: 20%;
+            background-color: aqua;
+            border:1px solid black
+        }
+    </style>
+</head>
+
+<body style="margin: 0%;">
+    <div class="main-container">
+        <div class="row-one">
+            <div class="row-one-box-one"></div>
+            <div class="row-one-box-two"></div>
+            <div class="row-one-box-three"></div>
+            <div class="row-one-box-four"></div>
+            <div class="row-one-box-five"></div>
+        </div>
+        <div class="row-two">
+            <div class="column-one"><video src="../assets/video/SampleVideo_1280x720_5mb.mp4"controls height="600px" ></video></div>
+
+            
+            <div class="column-two">
+                <div class="column-two-box-one"></div>
+                <div class="column-two-box-two"></div>
+                <div class="column-two-box-three"></div>
+            </div>
+        </div>
+        <div class="row-three">
+            <div class="row-three-box-one"></div>
+            <div class="row-three-box-two"></div>
+            <div class="row-three-box-three"></div>
+            <div class="row-three-box-four"></div>
+            <div class="row-three-box-five"></div>
+        </div>
+    </div>
+</body>
+
+</html>
