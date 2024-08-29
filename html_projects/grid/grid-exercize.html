@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercize</title>
+    <style>
+        /* main-container */
+        .main-container {
+            border: solid;
+            height: 90vh;
+            width: 90vw;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+
+        }
+
+        .first-row {
+            border: solid;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+
+        .box-one {
+            border: solid black;
+        }
+
+        .box-two {
+            border: solid black;
+        }
+
+        .box-three {
+            border: solid black;
+        }
+
+        .second-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: solid;
+        }
+
+        .second-two {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+
+
+
+        .third-row {
+            border: solid;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main-container -->
+    <div class="main-container">
+        <!--first-row  -->
+        <div class="first-row">
+            <div class="box-one"><video src="../assets/video/file_example_MP4_480_1_5MG.mp4"></video></div>
+            <div class="box-two"><img src="../assets/image/nature-wild-life.jpg" height="90px"></div>
+        </div>
+
+        <div class="second-row">
+            <div class="box-one"></div>
+            <div class="second-two">
+                <div class="box-one"></div>
+                <div class="box-two"></div>
+            </div>
+        </div>
+        <!-- third-row -->
+        <div class="third-row">
+            <div class="box-one"></div>
+            <div class="box-two"></div>
+            <div class="box-three"></div>
+        </div>
+    </div>
+</body>
+
+</html>
